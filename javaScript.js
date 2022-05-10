@@ -30,5 +30,5 @@ function copiar(){
     var contenido = document.querySelector("textoArea");
     contenido.select("textoArea");
     document.execCommand("copy");
-    
+    alert("Se copio");
 }
